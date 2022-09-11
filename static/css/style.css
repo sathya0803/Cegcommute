@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+  background: #f7f7f7;
+}
+
+a {
+  color: #dc3545;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #dc3545ad;
+}
+
+.text-primary {
+  color: #e3324a !important;
+}
+
+.text-success {
+  color: #e3324a !important;
+}
+
+.bg-dark {
+  background-color: #34444c !important;
+}
+
+.bg-primary {
+  background-color: #009587 !important;
+  border-color: #009587 !important;
+}
+
+.bg-yellow {
+  background-color: #f39c12 !important;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: unset !important;
+}
+
+.text-dark {
+  color: #34444c !important;
+}
+
+.text-blue {
+  color: #0a58ca !important;
+}
+
+.text-success {
+  color: #009587 !important;
+}
+
+.btn-danger {
+  background: #e3324a radial-gradient(circle, transparent 1%, #e3324a 0) 50%/15000% !important;
+}
+
+.btn-primary {
+  background: #007a6f -webkit-gradient(linear, left top, right top, from(#009587), to(#009587)) !important;
+  background: #007a6f linear-gradient(90deg, #009587, #009587) !important;
+  border-color: #009587 !important;
+  background-position: 50%;
+  -webkit-transition: background 3s;
+  transition: background 3s;
+}
+
+.btn-blue {
+  background: #0a58ca !important;
+  background: #0a58ca !important;
+  border-color: #0a58ca !important;
+  background-position: 50%;
+  -webkit-transition: background 3s;
+  transition: background 3s;
+}
+
+.page-item.active .page-link {
+  background: #007a6f -webkit-gradient(linear, left top, right top, from(#009587), to(#009587)) !important;
+  background: #007a6f linear-gradient(90deg, #009587, #009587) !important;
+  border-color: #009587 !important;
+}
+
+.profile-dropdown {
+  cursor: pointer;
+}
+
+.profile-dropdown::after {
+  display: none !important;
+}
+
+.fa-10 {
+  font-size: 10px !important;
+}
+
+.fa-12 {
+  font-size: 12px !important;
+}
+
+.fa-14 {
+  font-size: 14px !important;
+}
+
+.fa-16 {
+  font-size: 16px !important;
+}
+
+.fa-20 {
+  font-size: 20px !important;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.box-1 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.box-2 {
+  border: 1px solid #ededed;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.badge-warning {
+  background-color: rgba(255, 152, 0, 0.12) !important;
+  color: #f39c12 !important;
+}
+
+.badge-success {
+  background-color: rgba(15, 183, 107, 0.12) !important;
+  color: #26af48 !important;
+}
+
+.badge-danger {
+  background-color: rgba(242, 17, 54, 0.12) !important;
+  color: #e63c3c !important;
+}
+
+.badge-blue {
+  background-color: rgba(10, 88, 207, 0.14) !important;
+  color: #0a58ca !important;
+}
+
+.badge-lg {
+  font-size: 14px;
+  padding: 7px 15px;
+  border-radius: 35px;
+}
+
+.twolinesonly {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 72px;
+}
+
+#agencyupdatestatus {
+  position: relative;
+  top: -8px;
+}
+
+.prt-5px {
+  position: relative;
+  top: 5px;
+}
+
+.dash-widget-icon i {
+  background-color: rgba(255, 155, 68, 0.2);
+  border-radius: 100%;
+  color: #e3324a;
+  display: inline-block;
+  float: left;
+  font-size: 30px;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 10px;
+  text-align: center;
+  width: 60px;
+}
+
+.dash-widget-info h3 {
+  font-size: 30px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.notification_panel .dropdown-toggle::after {
+  color: white !important;
+}
+
+.table .carousel-control-prev .carousel-control-next-icon,
+.table .carousel-control-prev .carousel-control-prev-icon,
+.table .carousel-control-next .carousel-control-next-icon,
+.table .carousel-control-next .carousel-control-prev-icon {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+
+#loginpage {
+  margin-top: 7%;
+}
+#loginpage .card {
+  border-radius: 36px;
+}
+#loginpage .card .col-md-6 {
+  min-height: 431px;
+}
+#loginpage .card .loginimg {
+  background: linear-gradient(0deg, rgba(228, 64, 59, 0.712), rgba(228, 64, 59, 0.712)), url("../img/pexels-photo-5673482.jpeg");
+  background-size: cover;
+  border-top-right-radius: 36px;
+  border-bottom-right-radius: 36px;
+}
+#loginpage .card .loginimg .text {
+  margin-top: 35%;
+}
+
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
